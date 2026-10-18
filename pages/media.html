@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tribute - Teachers Appreciation Website V2</title>
+    <!-- Add the link to the CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">THANK YOU TEACHERS</div>
+        <nav>
+            <!-- Navigations -->
+            <a href="../index.html">HOME</a>
+            <a href="teachers.html">OUR MENTORS</a>
+            <a href="media.html" class="active">VIDEO TRIBUTE</a>
+            <a href="quotes.html">QUOTES</a>
+        </nav>
+    </header>
+
+    <!-- Floating Audio Card -->
+    <div class="floating-audio-card">
+        <div class="audio-label">
+             <span>♬ SAKURA CLOUD - MIFFY CAFE</span>
+        </div>
+        <audio controls loop autoplay>
+            <source src="../assets/audios/sakuracloud-miffy-cafe.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <main>
+        <!-- Main Section matching the V2 Hero Layout -->
+        <section class="hero-layout">
+            <div class="hero-left">
+                <p class="category-label">TRIBUTE</p>
+                <h1>VIDEO MESSAGE</h1>
+                <p class="hero-subtext">A special video message dedicated to our teachers expressing our deepest appreciation.</p>
+                <a href="quotes.html" class="btn-next">Quotes →</a>
+            </div>
+            
+            <div class="hero-card">
+                <h3>PERSONAL NOTE</h3>
+                <p>This recorded message represents our collective gratitude for everything you do inside and outside the classroom.</p>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="media-block">
+            <h3 style="color: var(--accent-white); margin-bottom: 0.5rem;">A Heartfelt Message</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem;">A short personal video expressing our appreciation for your dedication.</p>
+            <video controls>
+                <source src="../assets/videos/heartfelt-message.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2026 Prince Daryl R. Nieves. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
